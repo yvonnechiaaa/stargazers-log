@@ -22,7 +22,13 @@ h1 {
   color: white;
   margin-bottom: 10px;
   font-size: 2.5em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
 .intro {
@@ -73,6 +79,12 @@ h1 {
   text-decoration: underline;
 }
 
+.repo-name:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 .repo-owner {
   color: #666;
   font-size: 0.9em;
@@ -98,18 +110,10 @@ h1 {
   gap: 5px;
 }
 
-.repo-stars::before {
-  content: "⭐";
-}
-
 .repo-language {
   display: flex;
   align-items: center;
   gap: 5px;
-}
-
-.repo-language::before {
-  content: "📝";
 }
 
 .repo-date {
@@ -118,12 +122,19 @@ h1 {
   gap: 5px;
 }
 
-.repo-date::before {
-  content: "📅";
-}
-
 .language-badge {
   display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.language-badge:focus-visible {
+  outline: 2px solid #333;
+  outline-offset: 1pxblock;
   background: #667eea;
   color: white;
   padding: 4px 8px;

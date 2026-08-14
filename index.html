@@ -10,8 +10,8 @@
     <div class="container">
       <h1>Stargazers log</h1>
       <p class="intro">A log of the repositories I've starred.</p>
-      <div id="loading" class="loading">Loading repositories...</div>
-      <ul id="repositories-list"></ul>
+      <div id="loading" class="loading" aria-live="polite" aria-atomic="true">Loading repositories...</div>
+      <ul id="repositories-list" role="list"></ul>
     </div>
     <script src="script.js"></script>
   </body>
