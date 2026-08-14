@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "awesome-javascript",
+    "owner": "sorrycc",
+    "url": "https://github.com/sorrycc/awesome-javascript",
+    "description": "A curated list of amazingly awesome JavaScript libraries, resources and shiny things.",
+    "stars": 30000,
+    "language": "JavaScript",
+    "starredAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "name": "react",
+    "owner": "facebook",
+    "url": "https://github.com/facebook/react",
+    "description": "A JavaScript library for building user interfaces with components.",
+    "stars": 210000,
+    "language": "JavaScript",
+    "starredAt": "2024-02-10T14:45:00Z"
+  },
+  {
+    "id": 3,
+    "name": "vue",
+    "owner": "vuejs",
+    "url": "https://github.com/vuejs/vue",
+    "description": "The Progressive JavaScript Framework.",
+    "stars": 207000,
+    "language": "JavaScript",
+    "starredAt": "2024-03-05T09:20:00Z"
+  },
+  {
+    "id": 4,
+    "name": "typescript",
+    "owner": "microsoft",
+    "url": "https://github.com/microsoft/TypeScript",
+    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+    "stars": 99000,
+    "language": "TypeScript",
+    "starredAt": "2024-01-20T16:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "python",
+    "owner": "python",
+    "url": "https://github.com/python/cpython",
+    "description": "The Python programming language repository.",
+    "stars": 60000,
+    "language": "Python",
+    "starredAt": "2024-02-28T11:15:00Z"
+  }
+]
